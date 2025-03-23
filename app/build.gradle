@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.blazelivebot" // com.example.blazelivebot
     compileSdk 33
 
     defaultConfig {
