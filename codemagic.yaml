@@ -8,9 +8,9 @@ workflows:
       - name: Set gradlew permissions
         script: |
           chmod +x ./gradlew
-      - name: Clean Gradle cache
+      - name: Clean project
         script: |
-          ./gradlew cleanBuildCache
+          ./gradlew clean
       - name: Build APK
         script: |
           ./gradlew :app:assembleRelease
