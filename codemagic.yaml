@@ -1,0 +1,10 @@
+workflows:
+  android-build:
+    name: BlazeLiveBot APK Build
+    environment:
+      android_signing:
+        - my_keystore # Baad mein upload karenge
+    scripts:
+      - ./gradlew assembleRelease
+    artifacts:
+      - app/build/outputs/apk/release/app-release.apk
