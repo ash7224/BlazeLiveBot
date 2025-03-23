@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_rtmp_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RTMP URL" />
+
+    <EditText
+        android:id="@+id/et_stream_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stream Key" />
+</LinearLayout>
