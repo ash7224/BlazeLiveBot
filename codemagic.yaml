@@ -13,6 +13,6 @@ workflows:
           ./gradlew clean
       - name: Build APK
         script: |
-          ./gradlew :app:assembleRelease --warning-mode none
+          ./gradlew :app:assembleRelease
     artifacts:
       - app/build/outputs/apk/release/app-release.apk
